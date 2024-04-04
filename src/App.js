@@ -6,13 +6,15 @@ import Related from "./components/Realted";
 
 const App = () => {
   return (
-    <h3>Headphones : The best one out there</h3>
-    <ProductDetails />
-    <ProductDescription />
-    <div class="additional">
-      <Related />
-      <Ratings />
-    </div>
+    <>
+      <h3>Headphones : The best one out there</h3>
+      <ProductDetails />
+      <ProductDescription />
+      <div class="additional">
+        <Related />
+        <Ratings />
+      </div>
+    </>
   );
 };
 
